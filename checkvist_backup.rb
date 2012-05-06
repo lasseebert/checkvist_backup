@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'optparse'
-require './checkvist_api.rb'
+require_relative 'checkvist_api.rb'
 require 'tmpdir'
 
 def get_commandline_arguments
