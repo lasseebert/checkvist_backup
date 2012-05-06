@@ -3,7 +3,7 @@ checkvist_backup
 
 A simple ruby-script to create backup from checkvist
 
-Requirements: `tar`
+Requirements: `tar
 
 How to use
 ----------
@@ -17,3 +17,9 @@ How to use
       -a, --include_archived           Set to include archived checklists
       -h, --help                       Display this screen
 
+Example
+-------
+
+    ./checkvist_backup.rb -avl yourname@domain.com -k yoursupersecretkey
+
+This will produce the file `checkvist.tar.gz` in the current directory containing all lists including the archived lists.
