@@ -26,8 +26,10 @@ This will produce the file `checkvist.tar.gz` in the current directory containin
 
 Cron
 ----
-Cron is a great way of scheduling a backup
+Cron is a great way of scheduling a backup.
+
 If you're using RVM, you need to load that from Cron before it can execute the script.
+
 This will produce a daily backup that will override the previous each day:
 
     0 0 * * * bash -c 'source /home/<username>/.rvm/scripts/rvm && /usr/bin/env ruby /path/to/checkvist_backup/checkvist_backup.rb -al <checkvist login> -k <checkvist api key> -d /path/to/backup/output/file/'
