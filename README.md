@@ -3,7 +3,7 @@ checkvist_backup
 
 A simple ruby-script to create backup from checkvist
 
-Requirements: `tar
+Requirements: `ruby 1.9.2` `tar`
 
 How to use
 ----------
