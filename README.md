@@ -1,6 +1,8 @@
 checkvist_backup
 ================
 
+**NOTE**: This repo is no longer maintained
+
 A simple ruby-script to create backup from checkvist
 
 Requirements: `ruby 1.9.2` `tar`
